@@ -51,5 +51,5 @@ A continuación se listan los participantes del proyecto:
 
 
 ### Extra
-Informe de la práctica: . <br>
+Informe de la práctica: [Informe De Búsqueda](https://docs.google.com/document/d/1uKA5Q1jRwRV-i3AIdlaz69VMC7k5pFXL/edit?usp=sharing&ouid=112592623507564456368&rtpof=true&sd=true). <br>
 Este repositorio: [IA_21-22](https://github.com/Dncz/IA_21-22.git). <br>
