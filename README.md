@@ -40,8 +40,6 @@ Organización de archivos:
 * README.md: Información general del proyecto, así como participantes y especificaciones técnicas.
 * code/: Desarrollo del código, con sus cabeceras, implementaciones, los datos y la carpeta tests/.
 
-Desarrollo: <br>
-(explicar el programa y funcionamiento)
 
 ## Participantes
 A continuación se listan los participantes del proyecto:
