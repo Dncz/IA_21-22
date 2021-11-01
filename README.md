@@ -12,9 +12,11 @@
 Implementación de estrategias de búsqueda como propuesta de resolución para la determinación de trayectorias óptimas para taxis autónomos<br>
 
 ## Ejecución
-Para ejecutar el programa debe estar en la carpeta `nombreCarpeta/` y hay disponible un makefile con las opciones:
+Para ejecutar el programa debe estar en la carpeta `build/` y hay disponible un makefile con las opciones:
 * `make`: Compila el programa.
-* `make clear`: Borra los ejecutables.  
+* `make clear`: Borra los ejecutables.
+
+Para ejecutar el programa:
 * `./[nombre del ejecutable]`: ejecuta el programa.
 
 comentario: explicar el funcionamiento y opciones del programa:
