@@ -20,9 +20,15 @@ Para ejecutar el programa:
 * `./Taxi`: ejecuta el programa.
 
 comentario: explicar el funcionamiento y opciones del programa:
-* op1
-* op2
-* op3
+* Salida por consola : La solución del mapa se muestra por pantalla.
+* Salida por fichero : La solución del mapa se imprime en un fichero.
+* Modo Aleatorio : Se generan los obstáculos aleatoriamente. 
+* Modo Manual : Se carga un fichero con el mapa ya creado.
+* 4 direcciones : se desarrollan los algoritmos con 4 direcciones. 
+* 8 direcciones : se desarrollan los algoritmos con 8 direcciones.
+* Función Euclídeo : se utiliza la función de búsqueda euclídea. 
+* Función de Manhattan : Se utilizará la función de búsqueda de Manhattan.
+* Función Chebyshev : Se utilizará la función de búsqueda Chebyshev.
 
 ## Información general técnica
 Sistema de gestión de versiones y archivos: GitHub <br>
