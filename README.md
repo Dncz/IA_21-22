@@ -38,7 +38,6 @@ Lenguaje: Español <br>
 
 Organización de archivos:
 * README.md: Información general del proyecto, así como participantes y especificaciones técnicas.
-* docs/: Guarda todo lo referente a la documentación, tanto interna como de Doxygen.
 * code/: Desarrollo del código, con sus cabeceras, implementaciones, los datos y la carpeta tests/.
 
 Desarrollo: <br>
