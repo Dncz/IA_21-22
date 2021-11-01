@@ -7,7 +7,7 @@ LDIR =../lib
 
 LIBS=-lm
 
-_OBJ = car.o town.o main.o
+_OBJ = cell.o town.o main.o
 OBJ = $(patsubst %,$(ODIR)/%,$(_OBJ))
 
 all: Taxi
@@ -15,7 +15,7 @@ all: Taxi
 $(ODIR)/main.o: $(ODIR)/main.cc  
 	$(CC) -c -o $@ $< $(CFLAGS)
 
-$(ODIR)/car.o: $(ODIR)/car.cc  
+$(ODIR)/cell.o: $(ODIR)/cell.cc  
 	$(CC) -c -o $@ $< $(CFLAGS)
 
 $(ODIR)/town.o: $(ODIR)/town.cc  
