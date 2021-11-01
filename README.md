@@ -14,10 +14,10 @@ Implementación de estrategias de búsqueda como propuesta de resolución para l
 ## Ejecución
 Para ejecutar el programa debe estar en la carpeta `build/` y hay disponible un makefile con las opciones:
 * `make`: Compila el programa.
-* `make clear`: Borra los ejecutables.
+* `make clean`: Borra los ejecutables.
 
 Para ejecutar el programa:
-* `./[nombre del ejecutable]`: ejecuta el programa.
+* `./Taxi`: ejecuta el programa.
 
 comentario: explicar el funcionamiento y opciones del programa:
 * op1
