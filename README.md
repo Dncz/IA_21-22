@@ -14,8 +14,8 @@ Implementación de estrategias de búsqueda como propuesta de resolución para l
 ## Ejecución
 Para ejecutar el programa debe estar en la carpeta `nombreCarpeta/` y hay disponible un makefile con las opciones:
 * `make`: Compila el programa.
-* `make run`: Compila y ejecuta el programa.
 * `make clear`: Borra los ejecutables.  
+* `./[nombre del ejecutable]`: ejecuta el programa.
 
 comentario: explicar el funcionamiento y opciones del programa:
 * op1
@@ -25,20 +25,13 @@ comentario: explicar el funcionamiento y opciones del programa:
 ## Información general técnica
 Sistema de gestión de versiones y archivos: GitHub <br>
 Ramas: main <br>
-Lenguajes del proyecto: C++, Makefile (este último es opcional)<br>
+Lenguajes del proyecto: C++, Makefile<br>
 Lenguaje: Español <br>
 
 Organización de archivos:
-NOTA: son ejemplos..
 * README.md: Información general del proyecto, así como participantes y especificaciones técnicas.
-* CAMBIOS.md: Registro de todos los cambios hechos en el sistema de archivos por los miembros del proyecto.
-* REUNIONES.md: Registro de los temas tratados en las reuniones, así como las decisiones tomadas.
-* TOOLS.md: Pequeña guía para ejecutar los scripts.
-* test/: Todos los tests del programa.
 * docs/: Guarda todo lo referente a la documentación, tanto interna como de Doxygen.
 * code/: Desarrollo del código, con sus cabeceras, implementaciones, los datos y la carpeta tests/.
-* tools/: Scripts y sus configuraciones para documentación, auto-formato, tests y GitHooks.
-* .gitignore: Fichero de configuración de git para que no realice seguimientos de objetos compilados o ejecutables de C++. <br>
 
 Desarrollo: <br>
 (explicar el programa y funcionamiento)
