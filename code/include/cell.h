@@ -1,30 +1,51 @@
-IDIR =../include
-CC=g++
-CFLAGS=-I$(IDIR) -std=c++11 -g
+/**
+ * @file cell.h
+ * @author equipo_23
+ * @brief cabecera de la clase cell
+ */
 
-ODIR=../src
-LDIR =../lib
+#include <iostream>
 
-LIBS=-lm
+class Cell
+{
+public:
+    // Constructores
+    Cell();
+    Cell(std::pair<int, int>, float);
+    Cell(std::pair<int, int>, float, std::pair<int, int>, int);
+    // Destructor
+    ~Cell();
 
-_OBJ = cell.o town.o main.o
-OBJ = $(patsubst %,$(ODIR)/%,$(_OBJ))
+    // Setters
+    void setCost(float);
+    void setCost(float, std::pair<int, int>, int);
+    void setFCost(float);
+    void setFCost(std::pair<int, int>, int);
+    void setPos(int, int);
+    void setPos(std::pair<int, int> pos);
+    void setFather(Cell *);
 
-all: Taxi
+    // Getters
+    std::pair<int, int> getPos();
+    int getX();
+    int getY();
+    float getCost();
+    float getFCost();
+    Cell *getFather();
 
-$(ODIR)/main.o: $(ODIR)/main.cc  
-	$(CC) -c -o $@ $< $(CFLAGS)
+private:
+    float manhattanDistance_(std::pair<int, int>, std::pair<int, int>);
+    float euclideanDistance_(std::pair<int, int>, std::pair<int, int>);
+    float chevyshevDistance_(std::pair<int, int>, std::pair<int, int>);
 
-$(ODIR)/cell.o: $(ODIR)/cell.cc  
-	$(CC) -c -o $@ $< $(CFLAGS)
+    float evaluate_(std::pair<int, int>, int);
 
-$(ODIR)/town.o: $(ODIR)/town.cc  
-	$(CC) -c -o $@ $< $(CFLAGS)
+    // Celda padre
+    Cell *father_;
+    // Posicion en el mapa
+    std::pair<int, int> pos_;
+    // Coste para alcanzar la celda
+    float cost_;
 
-Taxi: $(OBJ)
-	$(CC) -o $@ $^ $(CFLAGS) $(LIBS)
-
-.PHONY: clean
-
-clean:
-	rm -f $(ODIR)/*.o *~ $(INCDIR)/*~
+    float fCost_;
+};
