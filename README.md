@@ -33,11 +33,11 @@ comentario: explicar el funcionamiento y opciones del programa:
 ## Ficheros
 Para ejecutar el programa introduciendole un fichero, deberemos preparar el fichero con anterioridad.
 El formato que debe tener el fichero es el siguiente:
-M N
-2 0 0 1
-1 1 0 0
-0 0 0 0
-3 1 1 1
+* M N
+* 2 0 0 1
+* 1 1 0 0
+* 0 0 0 0
+* 3 1 1 1
 
 M y N son las dimensiones X e Y de la matriz.
 0 indica un camino posible
