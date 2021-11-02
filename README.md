@@ -30,6 +30,21 @@ comentario: explicar el funcionamiento y opciones del programa:
 * Función de Manhattan : Se utilizará la función de búsqueda de Manhattan.
 * Función Chebyshev : Se utilizará la función de búsqueda Chebyshev.
 
+## Ficheros
+Para ejecutar el programa introduciendole un fichero, deberemos preparar el fichero con anterioridad.
+El formato que debe tener el fichero es el siguiente:
+M N
+2 0 0 1
+1 1 0 0
+0 0 0 0
+3 1 1 1
+
+M y N son las dimensiones X e Y de la matriz.
+0 indica un camino posible
+1 indica un obstaculo
+2 indica el inicio
+3 indica el fin
+
 ## Información general técnica
 Sistema de gestión de versiones y archivos: GitHub <br>
 Ramas: main <br>
