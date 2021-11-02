@@ -40,10 +40,10 @@ El formato que debe tener el fichero es el siguiente:
 * 3 1 1 1
 
 M y N son las dimensiones X e Y de la matriz.
-0 indica un camino posible
-1 indica un obstaculo
-2 indica el inicio
-3 indica el fin
+0 indica un camino posible.
+1 indica un obstaculo.
+2 indica el inicio.
+3 indica el fin.
 
 ## Información general técnica
 Sistema de gestión de versiones y archivos: GitHub <br>
